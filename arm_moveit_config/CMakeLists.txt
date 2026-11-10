@@ -17,15 +17,17 @@ find_package(rviz_visual_tools REQUIRED)
 
 # Copy necessary files to designated locations in the project
 install (
-  DIRECTORY config launch rviz
+  DIRECTORY config launch 
   DESTINATION share/${PROJECT_NAME}
 )
 
 # Install the .setup_assistant file
+#[[
 install(
   FILES .setup_assistant
   DESTINATION share/${PROJECT_NAME}
 )
+]]
 
 
 if(BUILD_TESTING)
