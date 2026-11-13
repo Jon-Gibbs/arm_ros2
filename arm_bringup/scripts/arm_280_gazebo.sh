@@ -15,7 +15,7 @@ ros2 launch arm_gazebo arm.gazebo.launch.py \
     load_controllers:=true \
     world_file:=pick_and_place_demo.world \
     use_camera:=true \
-    use_rviz:=true \
+    use_rviz:=false \
     use_robot_state_pub:=true \
     use_sim_time:=true \
     x:=0.0 \
